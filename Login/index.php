@@ -60,6 +60,7 @@ if (isset($_POST['submit'])) {
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style/style1.css">
+    <link rel="stylesheet" href="style/botstyle.css">
 
 </head>
 <body>
@@ -86,6 +87,8 @@ if (isset($_POST['submit'])) {
 
 <!-- header section ends -->
 
+
+
 <!-- home section starts  -->
 
 <section class="home" id="home">
@@ -100,9 +103,36 @@ if (isset($_POST['submit'])) {
         <a href="#appointment" class="btn"> Set an Appointment Schedule <span class="fas fa-chevron-right"></span> </a>
     </div>
 
+    <!-- chatbot section -->
+
+    <div class="wrapper">
+            <div class="title">Simple Online Chatbot</div>
+            <div class="form">
+                <div class="bot-inbox inbox">
+                    <div class="icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="msg-header">
+                        <p>Hello there, how can I help you?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="typing-field">
+                <div class="input-data">
+                    <input id="data" type="text" placeholder="Type something here.." required>
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- chatbot section ends -->
+
+
 </section>
 
 <!-- home section ends -->
+
+
 
 <!-- about section starts  -->
 
@@ -138,37 +168,37 @@ if (isset($_POST['submit'])) {
     <div class="box-container">
 
         <div class="box">
-            <i class="fas fa-notes-medical"></i>
-            <h3>free checkups</h3>
-            <p>Receive the gift of proactive healthcare with our complimentary checkup services. Regular health checkups are essential for early detection and prevention of potential issues, ensuring your well-being for years to come. At SAGIP Medical Hospital, we believe in making preventive care accessible to all.</p>
+            <i class="fas fa-comment-dots"></i>
+            <h3>User-FreUser Friendly A.I/Chatbot</h3>
+            <p>Effortlessly book and manage your appointments with instant, intuitive assistance. Experience the future of scheduling today!</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-ambulance"></i>
-            <h3>24/7 ambulance</h3>
-            <p>Your safety and well-being are our top priorities, which is why our 24/7 ambulance service is ready to respond swiftly to any medical emergency. Whether it's day or night, our experienced medical team is just a call away, ensuring prompt and reliable transportation to the care you need.</p>
+            <h3>Effortless One-Click Clinic Appointments</h3>
+            <p>Introducing our Effortless One-Click Clinic Appointments service! Say goodbye to scheduling headaches. With just one click, access seamless appointment booking. Experience convenience like never before!</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Real-Time Calendar </h3>
+            <p>Stay ahead of your schedule with live updates and instant availability. Effortlessly manage your appointments with precision and ease.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-user-md"></i>
-            <h3>expert doctors</h3>
-            <p>Trust your health to the hands of seasoned professionals at SAGIP Medical Hospital. With a commitment to continuous learning and innovation, our physicians bring a wealth of knowledge and expertise to ensure the best possible outcomes for our patients.</p>
+            <h3>Telemedicine Support</h3>
+            <p>Access quality healthcare from the comfort of your home. With our seamless integration, connect with medical professionals remotely for consultations and appointments. Experience convenience and peace of mind with Telemedicine Support.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
-            <i class="fas fa-procedures"></i>
-            <h3>bed facility</h3>
-            <p>Rest and recovery are crucial components of the healing process. Our comfortable and well-equipped bed facilities are designed to provide a conducive environment for your recovery. From private rooms to shared spaces, we offer accommodations tailored to meet your specific needs, ensuring a restful and healing experience.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-heartbeat"></i>
-            <h3>total care</h3>
-            <p>Experience comprehensive and holistic care at SAGIP Medical Hospital. Total care goes beyond treating symptoms; it encompasses the physical, emotional, and mental well-being of our patients. Our integrated approach ensures that you receive not only medical treatments but also the support and attention needed for a complete and speedy recovery.</p>
+            <i class="fas fa-laptop"></i>
+            <h3>Multi-Platform Accessibility</h3>
+            <p>EEffortlessly manage appointments from any device, anywhere. Our service ensures seamless scheduling across all platforms, providing convenience at your fingertips. Experience the freedom of managing appointments with ease, anytime, anywhere!</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
