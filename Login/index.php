@@ -106,14 +106,14 @@ if (isset($_POST['submit'])) {
     <!-- chatbot section -->
 
     <div class="wrapper">
-            <div class="title">Simple Online Chatbot</div>
+            <div class="title">CliniQuickAid Chatbot</div>
             <div class="form">
                 <div class="bot-inbox inbox">
                     <div class="icon">
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="msg-header">
-                        <p>Hello there, how can I help you?</p>
+                        <p>Welcome to CliniQuickAid Chatbot, How may can I help you?</p>
                     </div>
                 </div>
             </div>
