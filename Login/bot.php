@@ -21,7 +21,7 @@
                     <i class="fas fa-user"></i>
                 </div>
                 <div class="msg-header">
-                    <p>Hello there, how can I help you?</p>
+                    <p>Welcome to CliniQuickAid, How may I can help you?</p>
                 </div>
             </div>
         </div>
