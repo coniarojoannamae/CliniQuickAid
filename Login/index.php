@@ -78,10 +78,10 @@ if (isset($_POST['submit'])) {
         <a href="#doctors">doctors</a>
         <a href="#appointment">appointment</a>
         <a href="#blogs">blogs</a>
-        <a href="login.php"> <button class="btn"> Admin </button> </a>
+        <a href="login.php"> <button class="btn"> Login </button> </a>
     </nav>
 
-    <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="menu-btn" class="fas fa-bars"></div>       
 
 </header>
 

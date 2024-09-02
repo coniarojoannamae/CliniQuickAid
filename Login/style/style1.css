@@ -261,7 +261,7 @@ section:nth-child(even){
 .doctors .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:2rem;
+    gap:1rem;
 }
 
 .doctors .box-container .box{

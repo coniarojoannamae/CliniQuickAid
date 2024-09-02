@@ -32,7 +32,7 @@
          }
          else{
 
-            mysqli_query($con,"INSERT INTO users(Username,Email,Age,Password) VALUES('$username','$email','$age','$password')") or die("Erroe Occured");
+            mysqli_query($con,"INSERT INTO users (Username,Email,Age,Password) VALUES('$username','$email','$age','$password')") or die("Erroe Occured");
 
             echo "<div class='message'>
                       <p>Registration successfully!</p>
